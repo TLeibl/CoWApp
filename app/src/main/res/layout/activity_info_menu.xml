@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".gui.InfoMenuActivity">
+
+    <TextView
+        android:id="@+id/headInfoMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/info_menu_head_and_buttons_marginStart_and_End"
+        android:layout_marginTop="@dimen/info_menu_head_marginTop"
+        android:layout_marginEnd="@dimen/info_menu_head_and_buttons_marginStart_and_End"
+        android:text="@string/head_info_menu"
+        android:textColor="#142850"
+        android:textSize="@dimen/info_menu_head_textSize"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/generalInfoButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/info_menu_head_and_buttons_marginStart_and_End"
+        android:layout_marginTop="@dimen/info_menu_buttons_marginTop"
+        android:layout_marginEnd="@dimen/info_menu_head_and_buttons_marginStart_and_End"
+        android:backgroundTint="#DAE1E7"
+        android:text="@string/head_general_info"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#000000"
+        android:textSize="@dimen/info_menu_buttons_textSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headInfoMenu" />
+
+    <Button
+        android:id="@+id/infectionInfoButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/info_menu_head_and_buttons_marginStart_and_End"
+        android:layout_marginTop="@dimen/info_menu_buttons_marginTop"
+        android:layout_marginEnd="@dimen/info_menu_head_and_buttons_marginStart_and_End"
+        android:backgroundTint="#DAE1E7"
+        android:text="@string/head_infection_info"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#000000"
+        android:textSize="@dimen/info_menu_buttons_textSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/generalInfoButton" />
+
+    <Button
+        android:id="@+id/riskLevelInfoButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/info_menu_head_and_buttons_marginStart_and_End"
+        android:layout_marginTop="@dimen/info_menu_buttons_marginTop"
+        android:layout_marginEnd="@dimen/info_menu_head_and_buttons_marginStart_and_End"
+        android:backgroundTint="#DAE1E7"
+        android:text="@string/head_risk_level_info"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#000000"
+        android:textSize="@dimen/info_menu_buttons_textSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infectionInfoButton" />
+
+    <Button
+        android:id="@+id/faqButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/info_menu_head_and_buttons_marginStart_and_End"
+        android:layout_marginTop="@dimen/info_menu_buttons_marginTop"
+        android:layout_marginEnd="@dimen/info_menu_head_and_buttons_marginStart_and_End"
+        android:backgroundTint="#DAE1E7"
+        android:text="@string/faq"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#000000"
+        android:textSize="@dimen/info_menu_buttons_textSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/riskLevelInfoButton" />
+
+    <Button
+        android:id="@+id/dataProtectionButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/info_menu_head_and_buttons_marginStart_and_End"
+        android:layout_marginTop="@dimen/info_menu_buttons_marginTop"
+        android:layout_marginEnd="@dimen/info_menu_head_and_buttons_marginStart_and_End"
+        android:backgroundTint="#DAE1E7"
+        android:text="@string/head_data_protection"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#000000"
+        android:textSize="@dimen/info_menu_buttons_textSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/faqButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>

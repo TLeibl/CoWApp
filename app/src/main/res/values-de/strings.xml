@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //General
+    <string name="app_name">CoW-App</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    //Data Protection
+    <string name="accept_button">Akzeptieren</string>
+    <string name="decline_button">Ablehnen</string>
+    <string name="head_data_protection">Nutzungsbedingungen</string>
+    <string name="text_data_protection">Sie erklären sich damit einverstanden, dass die CoWApp das Bluetooth ihres Mobilgerätes aktivieren und darüber Daten (generierte und empfangene anonyme Schlüssel mit Zeitstempel sowie Informationen des aktuellen Infektionsstatus) senden und empfangen darf. \nHierfür wird ebenfalls die Erlaubnis auf das Aktivieren Ihres GPS-Standortes benötigt, um eine Bluetooth-Übertragung mit Personen in der Nähe möglich zu machen. Die Standortdaten sowie jegliche andere gesammelten Daten werden jedoch nicht ausgelesen, gespeichert oder anderweitig verwendet. \nDes weiteren erklären Sie sich damit einverstanden, dass die App zu jeder Zeit als Prozess im Hintergrund auf Ihrem Mobilgerät laufen darf, auch wenn sie geschlossen ist, und Ihnen auch Push-Benachrichtigungen schicken darf. \nNur so ist die Funktion der Corona-Warn-App gegeben.</string>
+    <string name="decline_info_title">Zustimmung notwendig </string>
+    <string name="decline_info_message">Sie müssen die Nutzungsbedingungen akzeptieren, um die App nutzen zu können. </string>
+    <string name="decline_info_ok_button">Okay</string>
+    <string name="exit_app">Exit</string>
+    //Main
+    <string name="menu_log">Historie</string>
+    <string name="menu_info">Info</string>
+    <string name="menu_test">Test</string>
+    <string name="menu_report_negative">Negativmeldung</string>
+    <string name="report_infection_button">Infektion melden</string>
+    <string name="report_infection_button_ci">Weitere Informationen</string>
+    <string name="suspicion_button">Verdacht? - Was tun?</string>
+    <string name="suspicion_button_ci">Negativmeldung</string>
+    <string name="traffic_light_description">Anzeige, die das aktuelle Risikolevel durch eine Ampel veranschaulicht.</string>
+    <string name="infoRiskCalcButton_description">Anklicken, um auf die Informationsseite zur Risikoberechnung zu gelangen.</string>
+    <string name="check_bluetooth_enabled_title">Bluetooth ist ausgeschaltet</string>
+    <string name="check_bluetooth_enabled_message">Bluetooth ist ausgeschaltet.\nDamit COVID-Kontakte verfolgt werden können, muss sowohl Bluetooth als auch GPS (Standort) immer aktiviert sein.</string>
+    <string name="check_gps_enabled_title">GPS (Standort) ist ausgeschaltet</string>
+    <string name="check_gps_enabled_message">GPS (Standort) ist ausgeschaltet.\nDamit COVID-Kontakte verfolgt werden können, muss sowohl Bluetooth als auch GPS (Standort) immer aktiviert sein.</string>
+    //Main risk status
+    <string name="risk_status_default">Aktuelles Risiko</string>
+    <string name="risk_status_low">Geringes Risiko</string>
+    <string name="risk_status_moderate">Moderates Risiko</string>
+    <string name="risk_status_high">Hohes Risiko</string>
+    <string name="risk_level">Risikolevel: \n%1$d von 100</string>
+    <string name="current_infection">Bestehende Infektion</string>
+    //Report Infection or negative test result
+    <string name="report_no_button">Nein</string>
+    <string name="report_yes_button">Ja</string>
+    <string name="head_report_infection">Infektion melden</string>
+    <string name="head_report_negative">Negativmeldung</string>
+    <string name="text_report_infection">Möchten Sie sich wirklich als infiziert melden? \n(Nur mit positivem PCR-Testergebnis)</string>
+    <string name="text_report_negative">Möchten Sie sich wirklich als nicht mehr infiziert melden? \n(Nur mit negativem PCR-Testergebnis)</string>
+    <string name="input">Bitte Test-ID eingeben!</string>
+    <string name="wronghead">Falsche Test-ID</string>
+    <string name="wrong">Die von Ihnen eingegebene Test-ID ist falsch. \n(Grund hierfür könnte eine falsche Eingabe sein oder die ID ist älter als 3 Tage und somit verfallen.)</string>
+    <string name="wait">Übermittlung läuft.</string>
+    <string name="waithead">Bitte warten ...</string>
+    <string name="problemhead">Keine Verbindung</string>
+    <string name="problem">Es konnte keine Verbindung zum Server aufgebaut werden. Bitte versuchen Sie es später erneut!</string>
+    <string name="head_thank_you">Vielen Dank für die Meldung!</string>
+    <string name="text_thank_you">Die App warnt Ihre Mitmenschen. Informieren Sie Ihr örtliches Gesundheitsamt und begeben sich augenblicklich in 14-tägige Quarantäne.</string>
+    <string name="head_report_successful">Meldung erfolgreich</string>
+    <string name="text_report_successful">Sie wurden erfolgreich als negativ getestet gemeldet. \nVielen Dank! \n(Achtung: Ein negatives Testergebnis schließt eine Infektion nicht aus.)</string>
+    <string name="ci_text_report_successful">Sie wurden erfolgreich als negativ getestet gemeldet.</string>
+    //Date and days since use
+    <string name="daysSinceText">Seit dem %1$s helfen Sie seit %2$d Tagen, Corona einzudämmen.</string>
+    //Permission Requesting
+    <string name="background_location_access_title">Die App benötigt den Standort-Zugriff</string>
+    <string name="background_location_access_message">Bitte erlauben Sie der App, Ihren Standort zu verwenden. Dieser wird benötigt, um die App zu nutzen. \nEs werden keine Standortdaten von der App erhoben.</string>
+    <string name="background_location_access_denied_title">Funktionalität ist eingeschränkt.</string>
+    <string name="background_location_access_denied_message">Der Standortzugriff wurde nicht erlaubt. Das bedeutet, dass keine COVID-Kontakte im Hintergrund erkannt werden können. \nBitte aktivieren Sie den Standortzugriff in Einstellungen -> Anwendungen -> Berechtigung (hier die CoWApp suchen und den Zugriff aktivieren)</string>
+    <string name="bluetooth_enabled_title">Bluetooth ist deaktiviert.</string>
+    <string name="bluetooth_enabled_message">Bitte aktivieren Sie Bluetooth und starten Sie die App neu oder nutzen Sie "Berechtigung erneut anfragen"</string>
+    <string name="ble_available_title">Bluetooth LE not available</string>
+    <string name="ble_available_message">Das Gerät unterstützt nicht die Bluetooth-Low-Energy Technologie. Daher funktioniert die App auf diesem Gerät nicht.</string>
+    <string name="location_access_denied_message">Der Zugriff auf den Gerätestandort wurde nicht zugelassen. Dieser wird benötigt, um COVID-Kontakte zu verfolgen.</string>
+    <string name="background_location_denied">Der Zugriff auf den Gerätestandort im Hintergrund wurde nicht zugelassen. Dieser wird benötigt, um COVID-Kontakte zu verfolgen.</string>
+    <string name="request_permission">Berechtigungen erneut anfragen</string>
+    //Info Menu and pages
+    <string name="head_info_menu">Weitere Informationen</string>
+    <string name="head_general_info">Allg. Informationen</string>
+    <string name="text_general_info">Die CoWApp (Corona-Warn-App) ist eine Applikation, mit der jeder mithelfen kann, das Coronavirus weiter einzudämmen. \nMit dieser kann potenzieller Kontakt zu Corona-infizierten Personen im Alltag festgestellt und ein Infektionsrisiko berechnet und in Form des Ampelprinzips und eines Risikowerts von 1 bis 100 dargestellt werden. \nDes weiteren erhalten Sie eine Push-Benachrichtigung, wenn ein mögliches Gesundheitsrisiko festgestellt wurde, damit Sie wissen, wie sie weiter verfahren, um sich und Ihre Mitmenschen zu schützen. \nUnter Verdacht? - Was tun? erhalten Sie Informationen, was Sie bei einem Infektionsverdacht tun können, im Informationsmenü weitere Informationen.</string>
+    //Info screen about the risk level
+    <string name="head_risk_level_info">Risiko Level Information</string>
+    <string name="short_Risk_Level_Info_Head">Was ist das Risikolevel?</string>
+    <string name="short_Risk_Level_Info_Text">Das Risikolevel ist ein Zahlenwert zwischen 0 und 100.\nDie CoW-App berechnet diesen für Sie.\nDer Risikowert stellt in einer Zahl dar, wie wahrscheinlich es ist, dass Sie in den letzten 14 Tagen mit dem Covid-Virus infiziert worden sind.</string>
+    <string name="head_traffic_light_info">Bedeutung der Risikoampel</string>
+    <string name="text_traffic_light_info">Um weitere Klarheit zu schaffen und Ihnen dabei zu helfen, wie Sie sich am besten verhalten sollen, unterteilt und vereinfacht die CoW-App das Risikolevel zusätzlich über die Ampelanzeige.</string>
+    <string name="head_traffic_light_green">Grüne Risiko-Ampel</string>
+    <string name="text_traffic_light_green">Ein Risikowert kleiner als 35 (also 0 – 34) resultiert in einer grünen Ampelfarbe, diese signalisiert, dass eine Infektion sehr unwahrscheinlich ist und Sie somit unbesorgt sein können. Ein Risikolevel-Wert von 0 schließt eine Infektion jedoch nicht gänzlich aus!</string>
+    <string name="head_traffic_light_yellow">Gelbe Risiko-Ampel</string>
+    <string name="text_traffic_light_yellow">Ein Wert zwischen 35 und 70 resultiert in einer gelben Ampelfarbe, was bedeutet, eine Infektion ist bereits möglich, aber noch nicht sehr wahrscheinlich.\nLiegt das Risikolevel nahe an der 35,\nist eine Infektion eher unwahrscheinlich.\nSollte der Wert jedoch steigen und sich der oberen Grenze von 70 annähern,\nwird die Möglichkeit einer Infektion wahrscheinlicher.</string>
+    <string name="head_traffic_light_red">Rote Risiko-Ampel</string>
+    <string name="text_traffic_light_red">Ein Risikolevel über 70 setzt die Ampel rot und signalisiert eine hohe Infektionswahrscheinlichkeit.\nEs wird geraten, sich unbedingt über die nötigen Maßnahmen zu informieren und diese bei Bedarf umzusetzen.</string>
+    <string name="head_risk_level_calculation_info">Risiko Wert Berechnung:</string>
+    <string name="text_risk_level_calculation_info">Um die Berechnung zu verstehen, sollten zuerst folgende Begriffe geklärt werden:\n\n<u>Kontakt</u>: Durch den Austausch von Schlüsseln zwischen Endgeräten wurde ein sogenannter Kontakt ermittelt.\n\nIn die Risikoberechnung fließen nur bereits ausgetauschte Kontakte mit Nutzern ein, welche sich anschließend als infiziert gemeldet haben.\n\nDiese Kontakte werden spezifiziert, indem sie entweder als direkter oder indirekter Kontakt gewertet werden.\n\n<u>Direkter Kontakt</u>: bedeutet, es hat einen Kontakt mit einer als infiziert gemeldeten Person stattgefunden.\n\n<u>Indirekter Kontakt</u> steht für einen Kontakt mit einer Person, die selbst nicht als infiziert gemeldet ist, jedoch Kontakt mit einer dritten, als infiziert gemeldeten Person hatte.\n\nZur Berechnung des Risikolevels werden alle direkten und indirekten Kontakte sowie die Selbst-Infektionsmeldung des Nutzers aus den letzten 14 Tagen berücksichtigt.\n\nEin indirekter Kontakt erzeugt ein Risiko Level von 35, je mehr Kontakte gemeldet werden, desto weiter erhöht das Level.\n\nEin direkter Kontakt erzeugt automatisch ein Risikowert von 70.\n\nJe mehr direkte Kontakte gemeldet werden, desto höher steigt das Risikolevel.\n\nDie Dauer der Kontakte fließt ebenfalls in die Berechnung mit ein.\nDazu werden lange Kontakte umgerechnet in mehrere kurze Kontakte.\n\n Eine bestehende Infektion wird durch einen Wert von 100 signalisiert.</string>
+    //Infection info
+    <string name="head_infection_info">Akute Infektion - Wie verhalte ich mich?</string>
+    <string name="text_infection_info">Bei akuter Infektion sind Sie verpflichtet, sich umgehend in Quarantäne zu begeben und 14 Tage oder bis Erhalt eines negativen PCR-Testergebnisses in Quarantäne zu bleiben. \nDes weiteren sind Sie verpflichtet, ihr örtliches Gesundheitsamt zu benachrichtigen. \nEventuelle Mitbewohner sollten sich ebenfalls umgehend testen lassen und Sie sind angehalten, sich von diesen zu distanzieren. \nWeitere Informationen unter: \n https://www.bundesregierung.de/breg-de/themen/coronavirus/coronavirus-wissen</string>
+    //Suspicion
+    <string name="head_suspicion_info">Verdacht? - Was tun?</string>
+    <string name="text_suspicion_info">Bei Verdachtsfall können Sie sich bei einer nahe gelegenen Teststelle oder Ihrem Hausarzt testen lassen. \nBei positivem Testergebnis informieren Sie bitte das Gesundheitsamt für Ihre Region (Suchen Sie Ihr Gesundheitsamt: https://tools.rki.de/plztool) und bleiben in 14-tägiger Quarantäne. \nIst das Testergebnis negativ, ist keine Quarantäne notwenig. \n Ein negatives Testergebnis können Sie der App jederzeit melden, um Ihr Risikolevel entsprechend anzupassen. \nVielen Dank für Ihre Mithilfe, der weiteren Ausbreitung des Corona-Virus entgegenzuwirken.</string>
+    //History
+    <string name="text_log">Historie</string>
+    <string name="log">Dies ist eine Benachrichtigung.</string>
+    //Push Notification
+    <string name="channel_name">NotificationChannel</string>
+    <string name="channel_description">Dieser Channel dient zum Senden von Push-Benachrichtigungen.</string>
+    <string name="ok_button">Okay</string>
+    <string name="head_notification">Mögliches Gesundheitsrisiko</string>
+    <string name="text_notification">Eine Person, mit der Sie in direktem oder indirektem Kontakt standen, hat sich mit dem Coronavirus infiziert. Bei Verdacht / typischen Symptomen können Sie sich testen lassen.</string>
+    <string name="head_directContactPush">Direkten Kontakt zu einer infizierten Person festgestellt</string>
+    <string name="text_moreInfoPush">Hier klicken für weitere Informationen.</string>
+    <string name="head_indirectContactPush">Indirekten Kontakt zu einer infizierten Person festgestellt</string>
+    <string name="head_noConnectionPush">Es konnte keine Verbindung zum Server hergestellt werden</string>
+    <string name="text_noConnectionPush">Versuche Verbindungsaufbau in 5 Minuten erneut…</string>
+    //BeaconBackgroundService (foreground) Notification
+    <string name="foreground_Notificaiton">Schutz aktiv</string>
+    //Debug Menu
+    <string name="actions">Test-Aktionen</string>
+    <string name="logs">Debug-Log-Einstellungen</string>
+    <string name="debuglog">Debug-Log</string>
+    <string name="debug_settings_headline">Was möchten Sie loggen?</string>
+    <string name="debug_settings_delete">DEBUG LOG LEEREN</string>
+    <string name="debug_settings_update">EINSTELLUNGEN AKTUALISIEREN</string>
+    <string name="debug_settings_alarm">wenn der Alarm anschlägt</string>
+    <string name="debug_settings_alarmset">wenn der Alarm gestellt wird</string>
+    <string name="debug_settings_keytransmit">wenn ein Key übertragen wird</string>
+    <string name="debug_settings_keysafe">wenn ein Key gespeichert wird</string>
+    <string name="key_was_saved">Key wurde gespeichert:</string>
+    <string name="received_a_key">Key wurde empfangen: </string>
+    <string name="alarm_ringed">Alarm hat geringt.</string>
+    <string name="alarm_set">Alarm wurde eingestellt.</string>
+    <string name="settings_were_saved">Einstellungen gespeichert.</string>
+    <string name="you_are_clearing">Du bist dabei den DebugLog zu leeren.</string>
+    <string name="are_you_sure_to_clear">Bist du sicher, dass du den DebugLog leeren willst?</string>
+    <string name="confirm">BESTÄTIGEN</string>
+    <string name="debug_log_was_cleared">Der DebugLog wurde geleert.</string>
+    <string name="action_canceled">Aktion abgebrochen</string>
+    //Test Menu
+    <string name="head_test_menu">Test Menü</string>
+    <string name="test_button_1">Push-Benachrichtigung Test</string>
+    <string name="test_button_2">Schlüsselgenerierung Test</string>
+    <string name="test_button_3">Risikolevel Test</string>
+    <string name="test_button_4">Infektionsstatus überprüfen Test</string>
+    <string name="test_button_5">Logge eigene Schlüssel Test</string>
+    <string name="test_button_6">Lösche eigene Schlüssel Test</string>
+    <string name="reset_button_risklevel">Reset Risk Level</string>
+    <string name="test_button_7">Übertragung an/aus</string>
+    <string name="test_button_8">Scannen an/aus</string>
+    <string name="question1">Welchen Nutzen bietet die CoW-App?</string>
+    <string name="question2">Was macht die CoW-App?</string>
+    <string name="question3">Wie funktioniert die CoW-App?</string>
+    <string name="question4">Warum sollte ich die CoW-App nutzen?</string>
+    <string name="question5">Wer steht hinter der CoW-App?</string>
+    <string name="question6">Welche verschiedenen Risiko-Stufen gibt es und wie sollte man sich in den verschiedenen Risiko-Stufen am besten verhalten?</string>
+    <string name="question7">Wann warnt die CoW-App tatsächlich?</string>
+    <string name="question8">Wie wirkt sich die Benutzung der CoW-App auf die Akkuleistung des Smartphones und auf den Speicherplatz aus?</string>
+    <string name="question9">Wie werden Datensicherheit und Datenschutz bei der CoW-App gewährleistet?</string>
+    <string name="question10">Reicht die Warnung „Hohes Risiko“ der CoW-App als Krankschreibung oder als Anordnung der Quarantäne?</string>
+    <string name="question11">Welche Bedeutung hat das Risiko-Level?</string>
+    <string name="question12">Wozu braucht die CoW-App meinen Standort?</string>
+    <string name="question13">Welche personenbezogenen Daten speichert die CoW-App?</string>
+    <string name="answer1">Die CoW-App hilft dabei, das Corona-Virus einzudämmen. Sie dokumentiert die Begegnung zweier Smartphones und kann so Kontakt-Ketten nachvollziehen und die Menschen besonders schnell warnen, falls Sie Kontakt mit einer Corona-positiv getesteten Person hatten. Je schneller die Menschen darüber informiert werden, desto schneller können sie entsprechende Schritte einleiten und vermeiden, dass unnötig viele weitere Menschen angesteckt werden. Deshalb ist die App ein nützliches Mittel, um zusammen mit allen anderen Maßnahmen das Corona-Virus zu bekämpfen. </string>
+    <string name="answer2">Die CoW-App informiert Sie, wenn Sie Kontakt zu einer Person hatten, die später als Corona-positiv getestet wurde. Zusätzlich werden sie mit Handlungsempfehlungen versorgt, wodurch Sie dazu in der Lage sind sich entsprechend zu Verhalten und eine weitere Ausbreitung des Corona-Virus zu vermeiden. Das Nachvollziehen von Infektionsketten, was sonst manuell gemacht wird und lange dauert, kann also durch die CoW-App stark beschleunigt werden. Die App läuft, wenn installiert, im Hintergrund auf Ihrem Smartphone und tauscht dabei Zufalls-ID-Codes mit anderen Smartphones in der nähe aus, um die Kontakt-Person-Ermittlung und die Feststellung der Infektionsketten möglich zu machen. Aus diesen Zufalls-ID-Codes kann man nicht ableiten Wer die Nutzer sind oder wo die Übertragung stattgefunden hat. </string>
+    <string name="answer3">Die CoW-App nutzt die Bluetooth-Technik und misst den Abstand und die Dauer des Kontaktes zu anderen Nutzern der App, denen man begegnet. Bei Begegnung werden dann Zufalls-ID-Codes ausgetauscht, um die Begegnung zu dokumentieren. Wenn nun eine Person positiv auf das Corona-Virus getestet wird, kann sie freiwillig über die App anonym ihre Infektion melden. In diesem Fall werden die gesammelten Zufalls-ID-Codes der Person an den Server übermittelt und dort zur Kontakt-Ermittlung zur Verfügung gestellt. Wenn sie die App installiert haben, prüft diese regelmäßig für Sie, ob Sie Corona-positiv getestete Personen getroffen haben. Diese Prüfung findet per Anfrage an den Server statt. Entsprechend der Ergebnisse dieser Prüfungen wird ihr Risiko-Level neu berechnet und sie werden gegebenenfalls gewarnt. Während dem gesamten Prozess ist Ihre Anonymität gewahrt. Es kann weder ihre Identität noch ihr Standort festgestellt werden. \n \nDie App ist bislang in folgenden beiden Sprachen verfügbar: Deutsch und Englisch. </string>
+    <string name="answer4">Sie tragen dadurch zum Kampf gegen Corona bei und vermeiden, dass unnötig andere Menschen leiden. Durch Ihre Nutzung können Sie besonders schnell feststellen, falls sie Kontakt mit einer infizierten Person hatten und so die Menschen in ihrer Umgebung schützen, indem Sie sich selbst in Quarantäne begeben oder entsprechende Schritte einleiten.</string>
+    <string name="answer5">Die CoW-App ist ein Projekt im Auftrag der Hochschule Heilbronn. Basierend auf einer zentralen Softwarearchitektur hat das Unternehmen Hopper GmbH die Anwendung entwickelt. </string>
+    <string name="answer6">Ihre aktuelle Risiko-Stufe wird aus ihrem persönlichen Risiko-Level abgeleitet. Zur Risiko-Level Berechnung werden direkte oder indirekte Kontakte mit Personen berücksichtigt, die später Corona-positiv getestet worden sind. \nDie verschiedenen Risiko-Stufen sind: \n \nGeringes Risiko: \nEs konnte kein Kontakt festgestellt werden. Es wird über allgemein geltende Abstandsregelungen und Hygiene-Empfehlungen informiert. \n \nModerates Risiko: \nEs wurde festgestellt, dass in den letzten 14 Tagen mindestens ein indirekte Kontakt zu einer Person bestanden hat, die später als Corona-Positiv getestet wurde. Es wird empfohlen unnötige Zusammenkünfte mit anderen Menschen zu vermeiden. \n \nHohes Risiko: \nEs wurde festgestellt, dass in den letzten 14 Tagen mindestens ein direkter Kontakt zu einer Person bestanden hat, die später als Corona-Positiv getestet wurde. Es wird empfohlen nachhause zu gehen, bzw. zuhause zu bleiben und mit den Hausarzt, den ärztlichen Bereitschaftsdienst unter 116117 oder dem Gesundheitsamt telefonisch Kontakt aufzunehmen und dort das weitere Vorgehen abzustimmen. \n \nBestehende Infektion: \nDie Person hat sich selbst als infiziert gemeldet. Es wird empfohlen nachhause zu gehen, bzw. zuhause zu bleiben und mit den Hausarzt, den ärztlichen Bereitschaftsdienst unter 116117 oder dem Gesundheitsamt telefonisch Kontakt aufzunehmen und dort das weitere Vorgehen abzustimmen. </string>
+    <string name="answer7">Wenn eine Person, mit der Sie Kontakt hatten, sich selbst als infiziert meldet, dann werden Sie spätestens in einer halben Stunde gewarnt. Ob eine Person sich selbst infiziert meldet oder nicht, ist freiwillig und hängt alleine von dieser Person ab. Um sich als infiziert zu melden muss die Person über die App den Button „Infektion melden“ betätigen und dann bestätigen.</string>
+    <string name="answer8">Die Anwendung läuft batterieschonend im Hintergrund. Es wurde darauf geachtet die App Batterieschonend und Speicherplatz-sparend zu entwickeln.</string>
+    <string name="answer9">Der Schutz Ihrer Privatsphäre hat für die Hopper GmbH höchste Priorität. Deshalb wurde bei der CoW-App auf eine Registrierung der Nutzer verzichtet und alles findet komplett anonym statt. Alle anfallenden Daten werden nach maximal 14 Tagen gelöscht.</string>
+    <string name="answer10">Nein. Die Warnung „Hohes Risiko“ bedeutet lediglich, dass ein direkter Kontakt zu einer Person festgestellt wurde, die sich später als infiziert gemeldet hat. Es wird dem Nutzer die telefonische Kontaktaufnahme mit seinem Hausarzt, dem ärztlichen Bereitschaftsdienst 116 117 oder dem Gesundheitsamt empfohlen. Eine Krankschreibung oder die Anordnung einer Quarantäne wird durch den Hausarzt oder das Gesundheitsamt vorgenommen.</string>
+    <string name="answer11">Das Risiko-Level wird durch einen Wert zwischen 1 (geringes Risiko) und 100 (infiziert) dargestellt. Bei der Berechnung des Risiko-Levels werden folgende drei Faktoren berücksichtigt: Direkte Kontakte, indirekte Kontakte und die Infiziert-Meldung. Das Risiko-Level dient dazu dem Nutzer ein konkreteres Bild von der Lage zu verschaffen und aus diesem Risiko-Level werden dann auch die verschiedenen Risiko-Stufen abgeleitet. Bei einem Risiko-Level, welches kleiner ist als 35, konnte kein Kontakt festgestellt werden. Im Bereich zwischen 35 und 69 wurden nur indirekte Kontakte festgestellt. Im Bereich zwischen 70 und 95 wurden direkte Kontakte festgestellt, aber der Nutzer hat sich selbst noch nicht als infiziert gemeldet. Der Wert 100 bedeutet, dass der Nutzer sich selbst als infiziert gemeldet hat. </string>
+    <string name="answer12">Die Berechtigung zur Verwendung des Standortes ist technisch notwendig, um die Bluetooth-Technik zu verwenden. Der Standort eines Nutzers oder einer Nutzerin wird zu keinem Zeitpunkt ausgelesen oder auf irgendeine Art und Weise verwendet.</string>
+    <string name="answer13">Ihre Daten sind jederzeit sicher. Wenn Sie die App nutzen, bleiben Sie jederzeit anonym. Um die App zu nutzen, müssen Sie sich nicht registrieren. Alle Daten – beispielsweise zu Begegnungen mit anderen die App nutzenden Personen – werden anonym und nur kurzfristig gespeichert. Es werden kurzlebige Zufalls-ID-Codes von anderen Smartphones, auf denen die App installiert ist, gespeichert, wenn eine Begegnung stattfindet. Im Falle einer Infektion können dann freiwillig die eigenen gesammelten Zufalls-ID-Codes freigegeben werden, welche es anderen App-Nutzerinnen und Nutzern erlauben, dass auf ihren Smartphones ihr Risiko-Level berechnet wird. Mit diesen Daten und den lokal gespeicherten Daten ist es dem Server möglich, einen Kontakt mit einer Corona-positiv getesteten Person zu erkennen und entsprechend zu warnen. Daten, die eine Person identifizierbar machen, insbesondere Positionsdaten, werden nicht ausgelesen, verwendet oder gespeichert. Sichergestellt ist: Eine Corona-positiv getestete Person erfährt nicht, welche Personen, mit denen eine Begegnung stattgefunden hat, informiert werden. Kontaktpersonen erhalten keine Informationen über die Corona-positiv getestete Person. </string>
+    <string name="faq">FAQ</string>
+</resources>

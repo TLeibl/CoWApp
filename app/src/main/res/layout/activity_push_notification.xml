@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gui.PushNotificationActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/image_view_marginStart_and_End"
+        android:layout_marginTop="@dimen/image_view_marginTop"
+        android:layout_marginEnd="@dimen/image_view_marginStart_and_End"
+        android:layout_marginBottom="@dimen/image_view_marginBottom"
+        app:layout_constraintBottom_toTopOf="@+id/okButtonNotification"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_push_activity_cow" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_height"
+        android:layout_marginStart="@dimen/view_marginStart_and_End"
+        android:layout_marginTop="@dimen/view_marginTop"
+        android:layout_marginEnd="@dimen/view_marginStart_and_End"
+        android:background="#BEE4E4"
+        android:backgroundTint="#DFFDFD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/okButtonNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/push_not_button_marginBottom"
+        android:backgroundTint="#27496D"
+        android:text="@string/ok_button"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/push_not_button_textSize"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textNotification" />
+
+    <TextView
+        android:id="@+id/textNotification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/push_not_text_marginStart_and_End"
+        android:layout_marginTop="@dimen/push_not_text_marginTop"
+        android:layout_marginEnd="@dimen/push_not_text_marginStart_and_End"
+        android:text="@string/text_notification"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#000000"
+        android:textSize="@dimen/push_not_text_textSize"
+        app:layout_constraintEnd_toEndOf="@id/view"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headNotification" />
+
+    <TextView
+        android:id="@+id/headNotification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/push_not_head_marginStart_and_End"
+        android:layout_marginTop="@dimen/push_not_head_marginTop"
+        android:layout_marginEnd="@dimen/push_not_head_marginStart_and_End"
+        android:background="#EA3232"
+        android:backgroundTint="#EA3232"
+        android:text="@string/head_notification"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/push_not_head_textSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/view"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/view"
+        app:layout_constraintStart_toStartOf="@id/view"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

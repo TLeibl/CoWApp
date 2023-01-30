@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".utils.TestMenuActivity">
+
+    <TextView
+        android:id="@+id/headTestMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/test_head_marginStart_and_End"
+        android:layout_marginTop="@dimen/test_head_marginTop"
+        android:layout_marginEnd="@dimen/test_head_marginStart_and_End"
+        android:text="@string/head_test_menu"
+        android:textColor="#142850"
+        android:textSize="@dimen/test_head_textSize"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headTestMenu">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/test_buttons_marginStart_and_End"
+            android:layout_marginEnd="@dimen/test_buttons_marginStart_and_End"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/pushNotificationTestButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/test_button_1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#000000"
+                android:textSize="@dimen/test_buttons_textSize" />
+
+            <Button
+                android:id="@+id/keyGenerationTestButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/test_button_2"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#000000"
+                android:textSize="@dimen/test_buttons_textSize" />
+
+            <Button
+                android:id="@+id/checkInfectionStatusButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/test_button_4"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#000000"
+                android:textSize="@dimen/test_buttons_textSize" />
+
+            <Button
+                android:id="@+id/logOwnKeysButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/test_button_5"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#000000"
+                android:textSize="@dimen/test_buttons_textSize" />
+
+            <Button
+                android:id="@+id/deleteOwnKeysTextButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/test_button_6"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <LinearLayout
+                style="buttonBarStyle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/Test3"
+                    style="buttonBarStyle"
+                    android:layout_width="231dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/test_button_3"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/resetButton"
+                    style="buttonBarStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#EA6262"
+                    android:text="@string/reset_button_risklevel" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/scan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/test_button_8"
+                android:textAllCaps="false"
+                android:textSize="@dimen/test_buttons_textSize" />
+
+            <Button
+                android:id="@+id/transmit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/test_button_7"
+                android:textAllCaps="false"
+                android:textSize="24sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/simulateKeyExchangePlainText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="000000000000"
+                    android:inputType="textPersonName"
+                    android:text="a32dffb3-0000-0000-0000-" />
+
+                <Button
+                    android:id="@+id/simulateKeyExchangeButton"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Simulate Key Exchange"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/updateForegroundEditText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:hint="Update Text"
+                    android:inputType="textPersonName" />
+
+                <Button
+                    android:id="@+id/updateForegroundButton"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:text="Update foregroundNotification"
+                    android:textAllCaps="false"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/stopForegroundNotificationButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Stop foreground Notification" />
+
+            <Button
+                android:id="@+id/addIndirectTestContact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/test_button_14" />
+
+            <Button
+                android:id="@+id/addDirectTestContact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/test_button_15" />
+
+            <Button
+                android:id="@+id/calculateRiskLevelByContacts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/test_button_10"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/deleteTestContacts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/test_button_16" />
+
+            <Button
+                android:id="@+id/setInfectionOutdated"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/test_button_12"
+                android:textAllCaps="false"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/checkOutdatedInfectionbutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/test_button_11"
+                android:textAllCaps="false"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/activate15MinuteBuisness"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/test_button_13"
+                android:textAllCaps="false"
+                android:textSize="24sp" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
