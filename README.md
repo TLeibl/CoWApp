@@ -1,7 +1,7 @@
 # CoWApp
 Corona-Warn-App
-Platform: Android
-Status: 2021
+| Platform: Android
+| Status: 2021
 
 This app was developed as part of a lecture. It is an alternative to the official Corona-Warn-App (Germany).
 Direct and indirect contacts of the user are tracked via Bluetooth and GPS and stored anonymously in a server database. The data remains here for 2 weeks 
